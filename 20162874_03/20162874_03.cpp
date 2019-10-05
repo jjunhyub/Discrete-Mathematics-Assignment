@@ -30,7 +30,8 @@ int main(int argc, char* argv[])
         }
         cout<<"\n";
     }
+
     cout<<"*****************\n";
-    cout<<"20162874  junhyub\n";
+    cout<<"20162874  Junhyub\n";
     cout<<"*****************\n";
 }
