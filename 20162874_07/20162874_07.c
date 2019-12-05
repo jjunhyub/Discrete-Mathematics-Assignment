@@ -88,7 +88,7 @@ int main(int argc, char* argv[]){
     }
 
 
-	int real_i = 0;
+	int real_i = 1;
 	for(int i = 0;i<index;i++)
 	{
 		int hash_num = _hashing(s[i]);
