@@ -93,7 +93,7 @@ int main(int argc, char* argv[]){
 	{
 		int hash_num = _hashing(s[i]);
 		if(hash_num==-1)continue;
-		fprintf(fp2,"[%04d] %s ( %d )\n",real_i++,s[i].c_str(),hash_num);
+		fprintf(fp2,"[%04d] %s (%d)\n",real_i++,s[i].c_str(),hash_num);
 	}
 	fprintf(fp2,"[total] %04d\n",index);
     fprintf(fp2,"*************************\n");
